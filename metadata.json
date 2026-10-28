@@ -1,0 +1,8 @@
+{
+  "name": "ChaosBox Utility Suite",
+  "description": "Industrial brutalist utility suite featuring Business Card Print-Ready Imposition, Geo Tagger, Map & GIS Export, 20-in-1 PDF Tools, Universal Format Converter (CloudConvert engine), Coordinate Converter, Graph Creator, Vectra SVG Engine, and EzQR vCard Studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

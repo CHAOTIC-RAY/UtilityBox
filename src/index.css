@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --color-black: #000000;
+  --color-brand-bg: #050505;
+  --color-brand-surface: #111111;
+  --color-brand-border: #222222;
+  --color-brand-muted: #555555;
+  --color-brand-accent: #b533ff;
+  --color-brand-pin: #d480ff;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: white;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-brand-bg);
+  border-left: 1px solid var(--color-brand-border);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-muted);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-brand-border) var(--color-brand-bg);
+}
+
+/* Blend out black borders/triangles in Hulhumale satellite tiles */
+.hulhumale-tiles {
+  mix-blend-mode: lighten !important;
+  isolation: auto !important;
+}
+
+.hulhumale-tiles img {
+  mix-blend-mode: lighten !important;
+}
+
+/* Ensure leaflet tile pane and layers don't isolate blend mode */
+.leaflet-tile-pane {
+  isolation: auto !important;
+}
+
+.leaflet-layer {
+  isolation: auto !important;
+}
+

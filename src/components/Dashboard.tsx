@@ -105,7 +105,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onSelectTool, photos }) =>
           <div>
             <div className="flex items-center gap-2 mb-2">
               <span className="text-[10px] font-mono font-bold uppercase tracking-[0.25em] text-brand-accent bg-black px-2.5 py-1 border border-brand-border">
-                CHAOSBOX V4.0
+                UTILITYBOX BY CHAOS
               </span>
               <span className="text-[10px] font-mono font-bold uppercase tracking-[0.2em] text-zinc-400 flex items-center gap-1">
                 <ShieldCheck className="w-3.5 h-3.5 text-brand-accent" /> CLIENT-SIDE TOOLBOX
@@ -113,7 +113,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onSelectTool, photos }) =>
             </div>
             
             <div className="flex items-center gap-3">
-              <img src="/logo.svg" alt="ChaosBox Logo" className="h-9 object-contain" />
+              <img src="/logo.svg" alt="Utilitybox by Chaos Logo" className="h-9 object-contain" />
             </div>
             <p className="text-zinc-400 text-xs uppercase tracking-[0.2em] mt-2 max-w-2xl leading-relaxed">
               Geospatial intelligence, format conversions, vector engineering, & 20-in-1 PDF tools suite.

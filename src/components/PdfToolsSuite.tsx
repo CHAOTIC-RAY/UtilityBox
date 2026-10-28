@@ -1445,7 +1445,7 @@ export const PdfToolsSuite: React.FC<PdfToolsSuiteProps> = ({
             </div>
             <h1 className="text-3xl font-black uppercase tracking-[0.15em] text-white flex items-center gap-3">
               <FileText className="w-7 h-7 text-brand-accent" />
-              CHAOS<span className="text-brand-accent">PDF</span> TOOLS
+              UTILITYBOX <span className="text-brand-accent">PDF</span> TOOLS
             </h1>
             <p className="text-zinc-400 text-xs uppercase tracking-[0.15em] mt-1">
               Full suite of 20 visual PDF utilities. Drag-and-drop reordering. 100% in-browser privacy. Zero server uploads.

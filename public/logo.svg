@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 50" fill="none">
-  <!-- ChaosBox Cyber Emblem -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 50" fill="none">
+  <!-- Cyber Isometric Box Shield Emblem -->
   <g transform="translate(4, 3)">
     <!-- Box Outer Shield -->
     <path d="M22 2L42 13.5V36.5L22 48L2 36.5V13.5L22 2Z" stroke="#00FF66" stroke-width="3" fill="#09090B"/>
@@ -13,14 +13,14 @@
     <circle cx="22" cy="25" r="3" fill="#FFE600"/>
   </g>
 
-  <!-- Typography: CHAOSBOX -->
-  <text x="56" y="35" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="28" letter-spacing="4" fill="#FFFFFF">
-    CHAOS<tspan fill="#00FF66">BOX</tspan>
+  <!-- Main Typography: UTILITYBOX -->
+  <text x="56" y="34" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="24" letter-spacing="3" fill="#FFFFFF">
+    UTILITY<tspan fill="#00FF66">BOX</tspan>
   </text>
   
-  <!-- Subtitle Badge -->
-  <rect x="250" y="14" width="80" height="20" fill="#18181B" stroke="#00FF66" stroke-width="1"/>
-  <text x="290" y="28" font-family="monospace" font-weight="700" font-size="9" letter-spacing="2" fill="#00FF66" text-anchor="middle">
-    UTILITIES
+  <!-- Subtitle Badge: BY CHAOS -->
+  <rect x="238" y="15" width="94" height="20" fill="#18181B" stroke="#00FF66" stroke-width="1" rx="2"/>
+  <text x="285" y="29" font-family="monospace" font-weight="800" font-size="8.5" letter-spacing="1.5" fill="#00FF66" text-anchor="middle">
+    BY CHAOS
   </text>
 </svg>

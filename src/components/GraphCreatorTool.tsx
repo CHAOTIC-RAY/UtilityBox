@@ -1335,7 +1335,7 @@ export const GraphCreatorTool: React.FC = () => {
 
               {/* Branding Footer in Chart */}
               <div className="mt-4 pt-2 border-t border-zinc-800/50 flex items-center justify-between text-[8px] font-mono uppercase tracking-[0.2em] opacity-50">
-                <span>CHAOSBOX GRAPH CREATOR</span>
+                <span>UTILITYBOX // GRAPH CREATOR</span>
                 <span>{new Date().toLocaleDateString()}</span>
               </div>
             </div>

@@ -315,7 +315,7 @@ export const BusinessCardPrintTool: React.FC = () => {
         color: rgb(0.72, 0.0, 1.0),
       });
       // Typography
-      p1.drawText("CHAOSBOX CREATIVE", {
+      p1.drawText("UTILITYBOX CREATIVE", {
         x: 6 * MM,
         y: pageH - 18 * MM,
         size: 14,
@@ -333,7 +333,7 @@ export const BusinessCardPrintTool: React.FC = () => {
         size: 9,
         color: rgb(0.9, 0.9, 0.9),
       });
-      p1.drawText("hello@chaosbox.io  •  +1 (555) 019-2834", {
+      p1.drawText("hello@utilitybox.io  •  +1 (555) 019-2834", {
         x: 6 * MM,
         y: 8 * MM,
         size: 6.5,
@@ -356,14 +356,14 @@ export const BusinessCardPrintTool: React.FC = () => {
         height: pageH - 8 * MM,
         color: rgb(0.06, 0.06, 0.08),
       });
-      p2.drawText("CHAOSBOX", {
-        x: 24 * MM,
+      p2.drawText("UTILITYBOX", {
+        x: 23 * MM,
         y: 28 * MM,
         size: 18,
         color: rgb(1, 1, 1),
       });
-      p2.drawText("WWW.CHAOSBOX.IO", {
-        x: 27 * MM,
+      p2.drawText("WWW.UTILITYBOX.IO", {
+        x: 26 * MM,
         y: 20 * MM,
         size: 8,
         color: rgb(0.72, 0.0, 1.0),
@@ -585,7 +585,7 @@ export const BusinessCardPrintTool: React.FC = () => {
 
         // Draw Prepress Slug Info
         if (drawSlug) {
-          const slugText = `CHAOSBOX PREPRESS • ${isBackSide ? 'PAGE 2 (BACK SHEET)' : 'PAGE 1 (FRONT SHEET)'} • ${selectedPaper} (${paperDimMm.w}x${paperDimMm.h}mm) • CARD: ${cardW}x${cardH}mm (Bleed: ${targetBleedMm}mm) • DUPLEX: ${duplexFlip.toUpperCase()} EDGE • YIELD: ${imposition.count} CARDS (${imposition.cols}x${imposition.rows})`;
+          const slugText = `UTILITYBOX BY CHAOS PREPRESS • ${isBackSide ? 'PAGE 2 (BACK SHEET)' : 'PAGE 1 (FRONT SHEET)'} • ${selectedPaper} (${paperDimMm.w}x${paperDimMm.h}mm) • CARD: ${cardW}x${cardH}mm (Bleed: ${targetBleedMm}mm) • DUPLEX: ${duplexFlip.toUpperCase()} EDGE • YIELD: ${imposition.count} CARDS (${imposition.cols}x${imposition.rows})`;
           sheetPage.drawText(slugText, {
             x: x0Pt,
             y: phPt - Math.max(3 * MM, y0Pt * 0.5),

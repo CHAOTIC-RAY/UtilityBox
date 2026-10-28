@@ -91,12 +91,12 @@ const LoadingScreen = () => (
           transition={{ delay: 0.3, duration: 1 }}
           className="text-[9px] uppercase font-bold text-brand-muted mb-4 ml-2"
         >
-          CHAOSBOX SUITE INITIALIZING
+          UTILITYBOX BY CHAOS INITIALIZING
         </motion.span>
         
         <img 
           src="/logo.svg" 
-          alt="ChaosBox Logo" 
+          alt="Utilitybox by Chaos" 
           className="h-[40px] md:h-[60px] object-contain select-none" 
         />
         
@@ -327,8 +327,8 @@ export default function App() {
         <header className="border-b border-brand-border flex flex-row items-center justify-between p-4 md:p-5 gap-4 shrink-0 bg-brand-bg relative z-10">
           <div className="flex items-center gap-4">
             <div className="flex flex-col items-start cursor-pointer" onClick={() => setActiveTool('dashboard')}>
-              <span className="text-[9px] md:text-[11px] uppercase tracking-[0.2em] text-brand-muted font-mono">ChaosBox Suite v4.0</span>
-              <img src="/logo.svg" alt="ChaosBox Logo" className="h-[22px] sm:h-[28px] md:h-[40px] object-contain mt-0.5" />
+              <span className="text-[9px] md:text-[11px] uppercase tracking-[0.2em] text-brand-muted font-mono">Utilitybox by Chaos v4.0</span>
+              <img src="/logo.svg" alt="Utilitybox Logo" className="h-[22px] sm:h-[28px] md:h-[40px] object-contain mt-0.5" />
             </div>
           </div>
 
